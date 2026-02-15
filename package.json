@@ -15,8 +15,11 @@
 		"preview": "npm run build && wrangler pages dev ./build"
 	},
 	"dependencies": {
+		"@cmfcmf/docusaurus-search-local": "^2.0.1",
 		"@docusaurus/core": "3.9.2",
+		"@docusaurus/plugin-content-pages": "^3.9.2",
 		"@docusaurus/preset-classic": "3.9.2",
+		"@docusaurus/theme-search-algolia": "^3.9.2",
 		"@mdx-js/react": "^3.0.0",
 		"clsx": "^2.0.0",
 		"prism-react-renderer": "^2.3.0",
